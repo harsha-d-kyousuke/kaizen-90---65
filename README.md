@@ -1,141 +1,136 @@
-Kaizen Mission Tracker — 90 → 65 Transformation
-📌 Overview
-The Kaizen Mission Tracker is a fully self-contained HTML, CSS, and JavaScript web app designed to help you complete a 90-day transformation challenge — from 90 kg to 65 kg — using a gamified, mission-based approach.
 
-You get:
+# 🏋️‍♂️ Kaizen Mission Tracker — **90 → 65 Transformation**
 
-Daily protocols for Morning, Strength, Nutrition, and Evening.
+![HTML5](https://img.shields.io/badge/HTML5-orange?logo=html5&logoColor=white)
+![CSS3](https://img.shields.io/badge/CSS3-blue?logo=css3&logoColor=white)
+![JavaScript](https://img.shields.io/badge/JavaScript-yellow?logo=javascript&logoColor=black)
+![Status](https://img.shields.io/badge/Status-Active-brightgreen)
+![License](https://img.shields.io/badge/License-Personal%20Use-lightgrey)
 
-Progress tracking with XP, streaks, and ranks.
+## 📌 Overview
+The **Kaizen Mission Tracker** is a self-contained **HTML, CSS, and JavaScript** app that turns your **90-day body transformation** into a game.
 
-Profile customization with your own photo.
+💡 From **90 kg to 65 kg** — follow the missions, earn XP, level up, and track progress in style.
 
-Dark/Light mode toggle.
+---
 
-Data auto-saving in localStorage.
+## 🚀 Features
+✅ **Daily Missions**: Morning, Strength, Nutrition, and Evening protocols  
+✅ **3 Phases**: Foundation (Day 1–30), Acceleration (Day 31–60), Final Cut (Day 61–90)  
+✅ **Gamification**: XP, streaks, and ranks  
+✅ **Weight Tracking** with logs and export  
+✅ **Motivational Quotes** for every stage  
+✅ **Dark/Light Mode** toggle  
+✅ **Offline Support** via `localStorage`  
+✅ **Profile Picture Upload**  
 
-Weight logging and JSON export.
+---
 
-🚀 Features
-Daily Missions: Each day has structured tasks across four categories:
+## 🖥 Preview
 
-Morning Protocol
+> *(Add your screenshot images here)*
 
-Strength Session
+| Dark Mode | Light Mode |
+|-----------|------------|
+| ![Dark Screenshot](screenshots/dark_mode.png) | ![Light Screenshot](screenshots/light_mode.png) |
 
-Nutrition Protocol
+---
 
-Evening Protocol
+## 📂 File Structure
+```
 
-Three Phases:
+📁 kaizen-mission-tracker
+└── kaizen\_mission\_tracker.html   # All HTML, CSS & JS in one file
 
-Foundation (Day 1–30)
+````
 
-Acceleration (Day 31–60)
+---
 
-Final Cut (Day 61–90)
+## 🛠 How to Use
+1. **Clone the Repository**
+   ```bash
+   git clone https://github.com/yourusername/kaizen-mission-tracker.git
+   cd kaizen-mission-tracker
+````
 
-Gamification:
+2. **Open the App**
 
-Earn XP for completing daily tasks.
+   * Double-click `kaizen_mission_tracker.html` or open in a browser.
 
-Level up from Recruit → Warrior → Veteran → Kaizen Master.
+3. **Set Your Profile**
 
-Maintain streaks for consistent performance.
+   * Click **UPLOAD PHOTO**.
+   * Your weight starts at **90 kg** — target **65 kg**.
 
-Progress Tracking:
+4. **Navigate Days**
 
-Weight logs with timestamps.
+   * Use **← PREV DAY** / **NEXT DAY →** buttons to view tasks.
 
-Progress bar for daily task completion.
+5. **Complete Tasks**
 
-Motivational quotes that change as you advance.
+   * Tick checkboxes to earn XP and maintain streaks.
 
-Customization:
+6. **Track Weight**
 
-Upload your own profile image.
+   * Enter your weight, click **LOG WEIGHT**, and export when needed.
 
-Switch between dark and light themes.
+7. **Switch Theme**
 
-Offline Support:
+   * Toggle **🌙 DARK/LIGHT**.
 
-All progress is stored locally in the browser (localStorage).
+---
 
-Data Export:
+## 📊 XP & Rank System
 
-Export your logs and stats as a .json file anytime.
+| Rank          | XP Required |
+| ------------- | ----------- |
+| Recruit       | 0–1999      |
+| Warrior       | 2000–3999   |
+| Veteran       | 4000–6999   |
+| Kaizen Master | 7000+       |
 
-📂 File Structure
-bash
-Copy
-Edit
-kaizen_mission_tracker.html   # Standalone HTML file with embedded CSS & JS
-No external JS files needed — only an internet connection for Google Fonts.
+---
 
-🛠 How to Use
-Open the App
-Simply open kaizen_mission_tracker.html in your browser.
+## 💾 Data Persistence
 
-Set Up Your Profile
+* **Local Storage Keys**:
 
-Click UPLOAD PHOTO to set your profile picture.
+  * `kaizenMissionData` — All user progress & settings.
+  * `kaizenTheme` — Saved theme preference.
+* **Auto-saves every 30 seconds**.
 
-Your weight starts at 90 kg, target 65 kg.
+---
 
-Navigate Days
+## 🌐 Browser Compatibility
 
-Use ← PREV DAY / NEXT DAY → buttons to browse your 90-day plan.
+| Browser | Supported |
+| ------- | --------- |
+| Chrome  | ✅         |
+| Firefox | ✅         |
+| Edge    | ✅         |
+| Safari  | ✅         |
+| Mobile  | ✅         |
 
-Each day shows specific tasks for each protocol.
+---
 
-Mark Tasks Complete
+## 📜 License
 
-Tick checkboxes as you finish tasks.
+This project is for **personal use only**.
+Feel free to customize it for your own transformation journey.
 
-When all tasks are complete, you earn 100 XP for that day.
+---
 
-Track Weight
+## ❤️ Contribute
 
-Enter your current weight in the input box and click LOG WEIGHT.
+If you improve the design, add features, or make the UI cooler, feel free to fork and share your version.
 
-Logs are stored and can be exported.
+---
 
-Toggle Theme
+### ⚡ Built with Discipline. Fueled by Kaizen.
 
-Click 🌙 DARK/LIGHT to switch themes.
+```
 
-Export Progress
+---
 
-Click EXPORT DATA to download your stats and logs.
-
-💾 Data Storage
-Local Storage Keys:
-
-kaizenMissionData: Stores all user progress, logs, profile image.
-
-kaizenTheme: Stores current theme preference.
-
-All changes are auto-saved every 30 seconds.
-
-📊 Ranks & XP
-Rank	XP Required
-Recruit	0–1999
-Warrior	2000–3999
-Veteran	4000–6999
-Kaizen Master	7000+
-
-🖼 Adding Your Picture
-Click UPLOAD PHOTO and select an image.
-
-Your picture will be saved locally and persist between sessions.
-
-🌐 Browser Compatibility
-Works on any modern browser (Chrome, Edge, Firefox, Safari).
-
-Requires JavaScript enabled.
-
-Designed to be mobile responsive.
-
-📜 License
-This project is personal-use only, but you are free to customize and adapt it for your own transformation journey.
-
+If you want, I can also **create the screenshots** in both dark and light themes so this README looks visually premium on GitHub. That way, when people land on the repo, they instantly see how cool it looks.  
+```
